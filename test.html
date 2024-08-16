@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Hover Effect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center h-screen">
+
+  <div class="group relative overflow-hidden bg-black rounded-md shadow-lg max-w-xs hover:bg-red-500">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png" alt="Movie" class="w-full h-full object-cover">
+    <div class="transition duration-300 opacity-0 group-hover:opacity-100 absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 p-4 text-center">
+      <h3 class="text-lg font-semibold">Movie Title</h3>
+      <p class="text-sm">This is a brief description of the movie.</p>
+    </div>
+  </div>
+
+</body>
+</html>

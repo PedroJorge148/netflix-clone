@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      lucide-react:
+        specifier: ^0.400.0
+        version: 0.400.0(react@18.3.1)
       next:
         specifier: 14.2.4
         version: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -17,6 +20,9 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
+      swiper:
+        specifier: ^11.1.4
+        version: 11.1.4
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -981,6 +987,11 @@ packages:
     resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
 
+  lucide-react@0.400.0:
+    resolution: {integrity: sha512-rpp7pFHh3Xd93KHixNgB0SqThMHpYNzsGUu69UaQbSZ75Q/J3m5t6EhKyMT3m4w2WOxmJ2mY0tD3vebnXqQryQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -1382,6 +1393,10 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  swiper@11.1.4:
+    resolution: {integrity: sha512-1n7kbYJB2dFEpUHRFszq7gys/ofIBrMNibwTiMvPHwneKND/t9kImnHt6CfGPScMHgI+dWMbGTycCKGMoOO1KA==}
+    engines: {node: '>= 4.7.0'}
 
   tailwindcss@3.4.4:
     resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
@@ -2612,6 +2627,10 @@ snapshots:
 
   lru-cache@10.2.2: {}
 
+  lucide-react@0.400.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+
   merge2@1.4.1: {}
 
   micromatch@4.0.7:
@@ -3028,6 +3047,8 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  swiper@11.1.4: {}
 
   tailwindcss@3.4.4:
     dependencies:
